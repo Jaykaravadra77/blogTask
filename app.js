@@ -17,6 +17,13 @@ app.use("/api/admin",adminRoutes);
 app.use("/api/user",userRoutes);
 app.use("/api/blog",blogRoutes);
 
+<<<<<<< HEAD
+=======
+console.log('git learning bro')
+console.log('git ignore')
+console.log('yeah boy');
+
+>>>>>>> stage
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
