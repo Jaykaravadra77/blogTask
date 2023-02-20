@@ -15,7 +15,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/auth",authRoutes);
 app.use("/api/admin",adminRoutes);
 app.use("/api/user",userRoutes);
-// app.use("/api/blog",blogRoutes);
+app.use("/api/blog",blogRoutes);
+
+console.log('git learning bro')
+console.log('git ignore')
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
